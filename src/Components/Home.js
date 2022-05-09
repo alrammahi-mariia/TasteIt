@@ -2,9 +2,41 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="hero-banner">
-      <h1>TasteIT</h1>
-      <p>TasteIT is a recipe app created during REACT22 group </p>
+    <div>
+      <div className="hero-banner">
+        <div className="hero-content">
+          <h1>TasteIT</h1>
+          <p>
+            TasteIT is a recipe app created during REACT22 group React lessons
+          </p>
+          <button>Browse recipes</button>
+        </div>
+      </div>
+      <div className="container">
+        <h2>Looking for recipes?</h2>
+        <div className="cards">
+          <div className="card">
+            <h3>Browse recipes</h3>
+            <p>
+              Find your favourites in this collection. You can search recipes
+              based on name or country
+            </p>
+            <a href="">All recipes</a>
+          </div>
+          <div className="card">
+            <h3>Add recipes</h3>
+            <p>Recipe from your country is missing? No worries, add one!</p>
+            <a href="">Add recipes</a>
+          </div>
+          <div className="card">
+            <h3>Want to know more about our projects?</h3>
+            <p>Visit our programme homepage</p>
+            <a href="https://en.bc.fi/qualifications/full-stack-web-developer-program/">
+              Business College Helsinki homepage
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

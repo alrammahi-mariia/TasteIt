@@ -1,10 +1,11 @@
 import React from "react";
 import Nav from "./Nav";
+import Hero from "./Hero";
 
 const Header = () => {
   return (
     <header>
-      <div className="Logo">TasteIT</div>
+      <div className="logo">TasteIT</div>
       <Nav />
     </header>
   );

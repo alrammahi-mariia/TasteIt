@@ -12,17 +12,23 @@ body {
 
 header,
 footer {
-  background-color: rgb(185, 145, 221);
-  height: 15vh;
+  background-color: rgb(75, 72, 72);
+  height: 5vh;
   color: white;
 }
 
 main {
-  min-height: 70vh;
+  min-height: 90vh;
 }
 
 a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
   color: orange;
+  text-decoration: underline;
 }
 
 header {
@@ -33,5 +39,9 @@ header {
 
 li {
   display: inline-block;
-  margin: 1rem;
+  margin: 2rem;
+}
+
+.logo {
+  margin: 2rem;
 }

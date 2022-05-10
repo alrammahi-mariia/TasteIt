@@ -5,6 +5,7 @@ import AddRecipe from "./Components/AddRecipe";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home";
 import "./App.css";
+import RecipeSingle from "./Components/RecipeSingle";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="recipelist" element={<RecipeList />} />
+          <Route path="recipelist/recipesingle" element={<RecipeSingle />} />
           <Route path="addrecipe" element={<AddRecipe />} />
         </Route>
       </Routes>

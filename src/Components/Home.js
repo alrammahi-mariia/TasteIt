@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -9,7 +10,9 @@ const Home = () => {
           <p>
             TasteIT is a recipe app created during REACT22 group React lessons
           </p>
-          <button>Browse recipes</button>
+          <Link to="recipelist" className="hero-button">
+            Browse recipes
+          </Link>
         </div>
       </div>
       <div className="container">
@@ -21,12 +24,12 @@ const Home = () => {
               Find your favourites in this collection. You can search recipes
               based on name or country
             </p>
-            <a href="">All recipes</a>
+            <Link to="recipelist">All recipes</Link>
           </div>
           <div className="card">
             <h3>Add recipes</h3>
             <p>Recipe from your country is missing? No worries, add one!</p>
-            <a href="">Add recipes</a>
+            <Link to="addrecipe">Add new recipe</Link>
           </div>
           <div className="card">
             <h3>Want to know more about our projects?</h3>

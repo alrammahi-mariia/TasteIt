@@ -220,7 +220,47 @@ a {
   margin-top: 2rem;
 }
 
-.footer {
+.form-container {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form input,
+textarea {
+  font-family: inherit;
+  padding: 5px;
+  width: 600px;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+
+form label {
+  margin-top: 1rem;
+}
+
+form input[type="submit"] {
+  width: 100px;
+  margin-top: 1rem;
+  padding: 5px;
+  font-family: inherit;
+  background-color: grey;
+  border: 1px solid grey;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+form .footer {
   text-align: center;
   margin-top: 1rem;
 }

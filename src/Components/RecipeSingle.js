@@ -1,11 +1,17 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 
 const RecipeSingle = () => {
+  const location = useLocation();
+  const recipe = location.state.data;
+  const country = location.state.country;
+
   return (
     <div className="recipe-container">
-      <h1>Pizza</h1>
+      <h1>{recipe.name}</h1>
       <div className="recipe-intro">
-        <img src="./pizza.jpeg" alt=""></img>
+        <img src={recipe.img} alt={recipe.name} />
+        <img src={country.flag} alt={country.name} />
         <p>Some intro description comes here</p>
       </div>
       <div className="ingredients">

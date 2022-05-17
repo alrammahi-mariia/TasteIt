@@ -1,22 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const RecipeCard = () => {
+const RecipeCard = ({ name, desc, img, data, country }) => {
   return (
     <div className="card">
-      <img src=""></img>
-      <h3>Pizza</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ex odio,
-        dapibus quis gravida sed, pellentesque id tortor. Fusce mattis volutpat
-        neque a consectetur. Praesent faucibus urna arcu, in dignissim nunc
-        ullamcorper sed. Etiam lacinia elit vel sagittis luctus. Donec
-        condimentum, eros sit amet sollicitudin euismod, odio eros mollis ex, a
-        feugiat sapien dolor ut dui. Maecenas posuere auctor leo sed aliquam. Ut
-        sed nisi eros. Duis eu nisl ut leo hendrerit scelerisque. Suspendisse
-        sit amet viverra dui, sit amet iaculis nibh.
-      </p>
-      <Link to="recipesingle" className="card-button">
+      <img src={img} alt={name} />
+      <img src={country.flag} alt={country.name} />
+      <h3>{name}</h3>
+      <p>{desc}</p>
+      <Link to={name} state={{ data: data, country: country }}>
         See more
       </Link>
     </div>

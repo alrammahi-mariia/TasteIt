@@ -68,8 +68,8 @@ const AddRecipe = () => {
         <label htmlFor="description">Description</label>
         <textarea name="description" id="desc" onChange={changeData} />
 
-        <label htmlFor="image">Image</label>
-        <input type="url" name="image" id="image" onChange={changeData} />
+        <label htmlFor="img">Image</label>
+        <input type="url" name="img" id="img" onChange={changeData} />
 
         <label htmlFor="countryCode">Recipe is from:</label>
         <select name="country_code" id="countryCode" onChange={changeCountry}>
@@ -100,11 +100,6 @@ const AddRecipe = () => {
           );
         })}
         <button onClick={addMore}>Add more ingredients</button>
-        <label htmlFor="ingredients">Ingredients</label>
-        <label htmlFor="quantity">Quantity</label>
-        <input type="text" name="quantity" />
-        <label htmlFor="ingredient">Ingredient</label>
-        <input type="text" name="ingredient" />
         <label htmlFor="instructions">Instructions</label>
         <textarea name="instructions" id="inst" onChange={changeData} />
         <input type="submit" value="Post recipe" />

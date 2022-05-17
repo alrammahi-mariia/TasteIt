@@ -1,44 +1,221 @@
 {
-  "recipes": [
+  "recipies": [
     {
+      "name": "Pannkoogid",
+      "author": "Margit",
+      "desc": "This is our family classic for Sunday mornings. Sunday without pancakes is just a day. Here is my base recipe, nowadays I add and modify it with ingredients I find at home",
+      "inc": [
+        {
+          "id": 1,
+          "incName": "milk",
+          "quantity": "2dl"
+        },
+        {
+          "id": 2,
+          "incName": "flour",
+          "quantity": "2dl"
+        },
+        {
+          "id": 3,
+          "incName": "egg",
+          "quantity": "2"
+        }
+      ],
+      "inst": "In a medium bowl, whisk together milk and egg. Add dry ingredients to milk mixture; whisk until all is neat. ",
+      "img": "https://source.unsplash.com/ZgRTuPsmFQg/1600x900",
       "id": 1,
+      "country_code": "EE"
+    },
+    {
+      "name": "Estonian Potato Salad ",
+      "author": "Margit",
+      "desc": "This salad is loved by Estonians from all walks of life. It’s a true Estonian staple, and one of the country’s most popular foods.",
+      "country_code": "EE",
+      "inc": [
+        {
+          "id": 1,
+          "incName": "unpeeled potatoes",
+          "quantity": "10-15"
+        },
+        {
+          "id": 2,
+          "incName": "boiled eggs",
+          "quantity": "5-6"
+        },
+        {
+          "id": 3,
+          "incName": "fresh cucumbers ",
+          "quantity": "1-2"
+        },
+        {
+          "id": 4,
+          "incName": "pickled cucumbers",
+          "quantity": "4-5 "
+        },
+        {
+          "id": 5,
+          "incName": "medium onions",
+          "quantity": "2-3"
+        },
+        {
+          "id": 6,
+          "incName": "ham or sausage",
+          "quantity": "400-500 g"
+        },
+        {
+          "id": 7,
+          "incName": "sour cream",
+          "quantity": "500ml"
+        },
+        {
+          "id": 8,
+          "incName": "mayonnaise",
+          "quantity": "500ml "
+        },
+        {
+          "id": 9,
+          "incName": "salt and black pepper",
+          "quantity": " a fingertip"
+        },
+        {
+          "id": 10,
+          "incName": "mustard",
+          "quantity": "2 tspoon"
+        }
+      ],
+      "inst": "Boil the potatoes in salted water the day before. Let it cool completely - potatoes cooked in a hurry on the same day do not become a real salad!\n\nTo make a salad, peel boiled potatoes and chop into small cubes. Cut the boiled cooled eggs into small cubes or crush them with a fork. Chop the cucumber into small cubes. Chop the onion or leek very finely (if desired, soak the chopped onion in a little cold water, it will soften the taste). Chop the sausage into small cubes.\n\nThe sauce should be mixed in a separate bowl. Mix sour cream, mayonnaise and mustard. Add chopped dill, onion tops, salt and pepper (the more summertime, the more I add herbs). Pour the sauce over the salad ingredients and mix gently.\n\nBefore serving, let the salad season in the pantry for about 2-4 hours.",
+      "img": "https://nami-nami.ee/files/recipes/5240/martiinakartulisalat.JPG",
+      "id": 2
+    },
+    {
+      "name": "Garlic Shrimp and Asparagus Risotto",
+      "author": "Mariia",
+      "desc": "",
+      "country_code": "IT",
+      "img": "",
+      "inc": [
+        {
+          "id": 1,
+          "incName": "olive oil",
+          "quantity": "2 tbsp"
+        },
+        {
+          "id": 2,
+          "incName": "onion",
+          "quantity": "1/3"
+        },
+        {
+          "id": 3,
+          "incName": "clove garlic",
+          "quantity": "1/2"
+        },
+        {
+          "id": 4,
+          "incName": "raw shrimp",
+          "quantity": "450g"
+        },
+        {
+          "id": 5,
+          "incName": "asparagus",
+          "quantity": "450g"
+        },
+        {
+          "id": 6,
+          "incName": "parmesan ",
+          "quantity": "1/2 cup"
+        },
+        {
+          "id": 7,
+          "incName": "Arborio rice",
+          "quantity": "3 cups"
+        }
+      ],
+      "inst": "",
+      "description": "Takes a second to prep but so worth it in the end.",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets-ucg.meredithcorp.io%2Faa6187d1d3ab16962ac5155d4d6fd72f%2F4517640.jpg&w=596&h=596&c=sc&poi=face&q=60",
+      "instructions": "Pour chicken broth into a pot; bring to a simmer over medium-low heat. Heat olive oil in a large saucepan over medium heat. Cook and stir onion and garlic in the hot oil until slightly softened, about 2 minutes. Add Arborio rice; cook, stirring frequently, until coated with oil, about 4 minutes. Stir 1/2 cup of the hot chicken broth into the saucepan; cook and stir until the rice has absorbed the broth, about 2 minutes. Repeat this process 4 more times, stirring constantly, until rice is creamy and tender yet firm to the bite, about 15 minutes. Stir shrimp and asparagus into the remaining hot broth. Cook until shrimp turns pink, 2 to 3 minutes. Remove broth from heat. Stir shrimp and asparagus into the rice; cook for 1 minute. Stir Parmesan cheese and butter into the rice; cook until melted, about 1 minute. Remove rice from heat. Season with salt and pepper. Sprinkle parsley over each serving.",
+      "id": 3
+    },
+    {
       "name": "Pizza",
-      "author": "Evelin",
-      "description": "It is our favourite pizza",
-      "imageUrl": "https://unsplash.com/photos/MQUqbmszGGM",
-      "quantity": "1 dl",
-      "ingredient": "milk",
-      "instructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id cursus nunc. Sed varius bibendum massa et semper. Donec sit amet justo sollicitudin velit consectetur lacinia quis eget risus. In eget maximus turpis. In aliquet orci vel felis consectetur, eu pulvinar sapien semper. Nunc mauris arcu, hendrerit accumsan magna ullamcorper, pellentesque euismod metus. Nunc metus erat, imperdiet ac dapibus eget, pulvinar vel lacus. Nulla pellentesque, diam eu tristique semper, tellus tortor pharetra velit, nec efficitur elit est id lectus. Mauris pretium neque a tortor ornare, quis fringilla nunc porta. Sed semper, dolor id dictum dignissim, dolor neque eleifend lacus, quis imperdiet eros nisl ut augue.Curabitur ac malesuada erat. Suspendisse et mollis elit, eu vestibulum metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In pellentesque metus ac justo dapibus, in blandit eros varius. Nunc ex diam, eleifend nec ornare et, euismod vel lacus. Aenean vitae risus eu tortor convallis interdum et in sapien. Nam elit nulla, cursus quis dignissim convallis, congue vitae eros."
+      "author": "Mariia",
+      "desc": "",
+      "country_code": "JM",
+      "img": "",
+      "inc": [
+        {
+          "id": 1,
+          "incName": "cheese",
+          "quantity": "1 cup"
+        },
+        {
+          "id": 2,
+          "incName": "flour",
+          "quantity": "2 cups"
+        },
+        {
+          "id": 3,
+          "incName": "salami",
+          "quantity": "200g"
+        }
+      ],
+      "inst": "",
+      "description": "Tasty pizza",
+      "image": "https://unsplash.com/photos/MQUqbmszGGM",
+      "instructions": " Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
+      "id": 4
     },
     {
-      "id": 2,
-      "name": "Pancakes",
-      "author": "Carl",
-      "description": "It is our favourite pizza",
-      "imageUrl": "https://unsplash.com/photos/MQUqbmszGGM",
-      "quantity": "1 dl",
-      "ingredient": "milk",
-      "instructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id cursus nunc. Sed varius bibendum massa et semper. Donec sit amet justo sollicitudin velit consectetur lacinia quis eget risus. In eget maximus turpis. In aliquet orci vel felis consectetur, eu pulvinar sapien semper. Nunc mauris arcu, hendrerit accumsan magna ullamcorper, pellentesque euismod metus. Nunc metus erat, imperdiet ac dapibus eget, pulvinar vel lacus. Nulla pellentesque, diam eu tristique semper, tellus tortor pharetra velit, nec efficitur elit est id lectus. Mauris pretium neque a tortor ornare, quis fringilla nunc porta. Sed semper, dolor id dictum dignissim, dolor neque eleifend lacus, quis imperdiet eros nisl ut augue.Curabitur ac malesuada erat. Suspendisse et mollis elit, eu vestibulum metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In pellentesque metus ac justo dapibus, in blandit eros varius. Nunc ex diam, eleifend nec ornare et, euismod vel lacus. Aenean vitae risus eu tortor convallis interdum et in sapien. Nam elit nulla, cursus quis dignissim convallis, congue vitae eros."
+      "name": "Pizza",
+      "author": "Mariia",
+      "desc": "",
+      "country_code": "AT",
+      "img": "",
+      "inc": [
+        {
+          "id": 1,
+          "incName": "jsdkjsahd",
+          "quantity": "skdksjdks"
+        },
+        {
+          "id": 2,
+          "incName": "sdksdjshd",
+          "quantity": "sdskhdskj"
+        },
+        {
+          "id": 3,
+          "incName": "fjkdfkdjh",
+          "quantity": "sdskhjdjs"
+        }
+      ],
+      "inst": "",
+      "description": "fidjfkdsfksdhfkj",
+      "image": "https://unsplash.com/photos/kfDsMDyX1K0",
+      "instructions": "sfhkdfködsfksjf",
+      "id": 5
     },
     {
-      "id": 3,
-      "name": "Soup",
-      "author": "Thomas",
-      "description": "It is our favourite pizza",
-      "imageUrl": "https://unsplash.com/photos/MQUqbmszGGM",
-      "quantity": "1 dl",
-      "ingredient": "milk",
-      "instructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id cursus nunc. Sed varius bibendum massa et semper. Donec sit amet justo sollicitudin velit consectetur lacinia quis eget risus. In eget maximus turpis. In aliquet orci vel felis consectetur, eu pulvinar sapien semper. Nunc mauris arcu, hendrerit accumsan magna ullamcorper, pellentesque euismod metus. Nunc metus erat, imperdiet ac dapibus eget, pulvinar vel lacus. Nulla pellentesque, diam eu tristique semper, tellus tortor pharetra velit, nec efficitur elit est id lectus. Mauris pretium neque a tortor ornare, quis fringilla nunc porta. Sed semper, dolor id dictum dignissim, dolor neque eleifend lacus, quis imperdiet eros nisl ut augue.Curabitur ac malesuada erat. Suspendisse et mollis elit, eu vestibulum metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In pellentesque metus ac justo dapibus, in blandit eros varius. Nunc ex diam, eleifend nec ornare et, euismod vel lacus. Aenean vitae risus eu tortor convallis interdum et in sapien. Nam elit nulla, cursus quis dignissim convallis, congue vitae eros."
-    },
-    {
-      "id": 4,
-      "name": "Salad",
-      "author": "Karla",
-      "description": "It is our favourite pizza",
-      "imageUrl": "https://unsplash.com/photos/MQUqbmszGGM",
-      "quantity": "1 dl",
-      "ingredient": "milk",
-      "instructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id cursus nunc. Sed varius bibendum massa et semper. Donec sit amet justo sollicitudin velit consectetur lacinia quis eget risus. In eget maximus turpis. In aliquet orci vel felis consectetur, eu pulvinar sapien semper. Nunc mauris arcu, hendrerit accumsan magna ullamcorper, pellentesque euismod metus. Nunc metus erat, imperdiet ac dapibus eget, pulvinar vel lacus. Nulla pellentesque, diam eu tristique semper, tellus tortor pharetra velit, nec efficitur elit est id lectus. Mauris pretium neque a tortor ornare, quis fringilla nunc porta. Sed semper, dolor id dictum dignissim, dolor neque eleifend lacus, quis imperdiet eros nisl ut augue.Curabitur ac malesuada erat. Suspendisse et mollis elit, eu vestibulum metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In pellentesque metus ac justo dapibus, in blandit eros varius. Nunc ex diam, eleifend nec ornare et, euismod vel lacus. Aenean vitae risus eu tortor convallis interdum et in sapien. Nam elit nulla, cursus quis dignissim convallis, congue vitae eros."
+      "name": "Pizza",
+      "author": "Mariia",
+      "desc": "",
+      "country_code": "AD",
+      "img": "https://unsplash.com/photos/kfDsMDyX1K0",
+      "inc": [
+        {
+          "id": 1,
+          "incName": "knknklj",
+          "quantity": "jkjlkjl"
+        },
+        {
+          "id": 2,
+          "incName": "hkjhhk",
+          "quantity": "jkjhkjhk"
+        }
+      ],
+      "inst": "",
+      "description": "kjljlökjlk",
+      "instructions": "khkjhkjhkj",
+      "id": 6
     }
   ]
 }

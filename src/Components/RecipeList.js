@@ -37,12 +37,16 @@ const RecipeList = () => {
       <div className="recipes-container">
         <h2>Our recipes</h2>
         <div className="recipes-cards">
-          <RecipeCard />
-          <RecipeCard />
-          <RecipeCard />
-          <RecipeCard />
-          <RecipeCard />
-          <RecipeCard />
+          {recipies.map((recipe) => (
+            <RecipeCard
+              key={recipe.id}
+              data={recipe}
+              country={countries.find(
+                (country) => country.alpha2Code === recipe.country_code
+              )}
+              {...recipe}
+            />
+          ))}
         </div>
       </div>
     </div>

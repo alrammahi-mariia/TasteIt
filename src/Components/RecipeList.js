@@ -6,27 +6,27 @@ const RecipeList = () => {
   const [recipies, setRecipies] = useState([]);
   const [countries, setCountries] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [data] = useState([]);
-  const [setFiltered] = useState(data);
+  // const [data] = useState([]);
+  // const [setFiltered] = useState(data);
 
   const getRecipes = () => axios.get("http://localhost:3001/recipies");
   const getCountries = () => axios.get("https://restcountries.com/v2/all");
 
-  const searchHandler = (e) => {
-    const result = data.filter((recipe) => {
-      let recipeCountry = recipe.country.toLowerCase();
-      let recipeName = recipe.name.toLowerCase();
-      let searched = e.target.value.toLowerCase();
+  // const searchHandler = (e) => {
+  //   const result = data.filter((recipe) => {
+  //     let recipeCountry = recipe.country.toLowerCase();
+  //     let recipeName = recipe.name.toLowerCase();
+  //     let searched = e.target.value.toLowerCase();
 
-      if (recipeName.includes(searched) || recipeCountry.includes(searched)) {
-        return recipe;
-      } else {
-        return "";
-      }
-    });
-    console.log(result);
-    setFiltered(result);
-  };
+  //     if (recipeName.includes(searched) || recipeCountry.includes(searched)) {
+  //       return recipe;
+  //     } else {
+  //       return "";
+  //     }
+  //   });
+  //   console.log(result);
+  //   setFiltered(result);
+  // };
 
   useEffect(() => {
     setLoading(true);
@@ -53,7 +53,7 @@ const RecipeList = () => {
         <input
           type="text"
           name="search"
-          onChange={searchHandler}
+          // onChange={searchHandler}
           defaultValue=""
         ></input>
       </div>

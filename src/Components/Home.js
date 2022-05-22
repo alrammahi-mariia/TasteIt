@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import videoSrc from "../assets/cake.mp4";
+import videoSrc from "../assets/production ID_4058085.mp4";
 
 const Home = () => {
   return (

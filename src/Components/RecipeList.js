@@ -18,7 +18,6 @@ const RecipeList = () => {
       let recipeName = recipe.name.toLowerCase();
       let searched = e.target.value.toLowerCase();
 
-      //If searched word matches recipe name or country name show that RecipeCard
       if (recipeName.includes(searched) || recipeCountry.includes(searched)) {
         return recipe;
       } else {

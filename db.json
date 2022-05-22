@@ -90,9 +90,8 @@
     {
       "name": "Garlic Shrimp and Asparagus Risotto",
       "author": "Mariia",
-      "desc": "",
+      "desc": "Delicious risotto your whole family will enjoy!",
       "country_code": "IT",
-      "img": "",
       "inc": [
         {
           "id": 1,
@@ -131,17 +130,16 @@
         }
       ],
       "inst": "",
-      "description": "Takes a second to prep but so worth it in the end.",
-      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets-ucg.meredithcorp.io%2Faa6187d1d3ab16962ac5155d4d6fd72f%2F4517640.jpg&w=596&h=596&c=sc&poi=face&q=60",
+      "img": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets-ucg.meredithcorp.io%2Faa6187d1d3ab16962ac5155d4d6fd72f%2F4517640.jpg&w=596&h=596&c=sc&poi=face&q=60",
       "instructions": "Pour chicken broth into a pot; bring to a simmer over medium-low heat. Heat olive oil in a large saucepan over medium heat. Cook and stir onion and garlic in the hot oil until slightly softened, about 2 minutes. Add Arborio rice; cook, stirring frequently, until coated with oil, about 4 minutes. Stir 1/2 cup of the hot chicken broth into the saucepan; cook and stir until the rice has absorbed the broth, about 2 minutes. Repeat this process 4 more times, stirring constantly, until rice is creamy and tender yet firm to the bite, about 15 minutes. Stir shrimp and asparagus into the remaining hot broth. Cook until shrimp turns pink, 2 to 3 minutes. Remove broth from heat. Stir shrimp and asparagus into the rice; cook for 1 minute. Stir Parmesan cheese and butter into the rice; cook until melted, about 1 minute. Remove rice from heat. Season with salt and pepper. Sprinkle parsley over each serving.",
       "id": 3
     },
     {
       "name": "Pizza",
       "author": "Mariia",
-      "desc": "",
-      "country_code": "JM",
-      "img": "",
+      "desc": "Make perfect pizza at home with this classic homemade pizza recipe, including a pizza dough recipe, topping suggestions, and step-by-step instructions with photos.",
+      "country_code": "IT",
+      "img": "https://www.simplyrecipes.com/thmb/mbN8mXZ0srgAT1YrDU61183t0uM=/648x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Homemade-Pizza-Dough-Lead-Shot-1b-ea13798d224048b3a28afb0936c9b645.jpg",
       "inc": [
         {
           "id": 1,
@@ -155,67 +153,13 @@
         },
         {
           "id": 3,
-          "incName": "salami",
-          "quantity": "200g"
+          "incName": "milk",
+          "quantity": "150 ml"
         }
       ],
       "inst": "",
-      "description": "Tasty pizza",
-      "image": "https://unsplash.com/photos/MQUqbmszGGM",
-      "instructions": " Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ",
+      "instructions": "Add the flour, salt, sugar, and olive oil, and using the mixing paddle attachment, mix on low speed for a minute. Then replace the mixing paddle with the dough hook attachment.\n\nKnead the pizza dough on low to medium speed using the dough hook about 7-10 minutes.\n\nIf you don't have a mixer, you can mix the ingredients together and knead them by hand.\n\nThe dough should be a little sticky, or tacky to the touch. If it's too wet, sprinkle in a little more flour.",
       "id": 4
-    },
-    {
-      "name": "Pizza",
-      "author": "Mariia",
-      "desc": "",
-      "country_code": "AT",
-      "img": "",
-      "inc": [
-        {
-          "id": 1,
-          "incName": "jsdkjsahd",
-          "quantity": "skdksjdks"
-        },
-        {
-          "id": 2,
-          "incName": "sdksdjshd",
-          "quantity": "sdskhdskj"
-        },
-        {
-          "id": 3,
-          "incName": "fjkdfkdjh",
-          "quantity": "sdskhjdjs"
-        }
-      ],
-      "inst": "",
-      "description": "fidjfkdsfksdhfkj",
-      "image": "https://unsplash.com/photos/kfDsMDyX1K0",
-      "instructions": "sfhkdfködsfksjf",
-      "id": 5
-    },
-    {
-      "name": "Pizza",
-      "author": "Mariia",
-      "desc": "",
-      "country_code": "AD",
-      "img": "https://unsplash.com/photos/kfDsMDyX1K0",
-      "inc": [
-        {
-          "id": 1,
-          "incName": "knknklj",
-          "quantity": "jkjlkjl"
-        },
-        {
-          "id": 2,
-          "incName": "hkjhhk",
-          "quantity": "jkjhkjhk"
-        }
-      ],
-      "inst": "",
-      "description": "kjljlökjlk",
-      "instructions": "khkjhkjhkj",
-      "id": 6
     }
   ]
 }

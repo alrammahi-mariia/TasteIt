@@ -28,7 +28,6 @@ const AddRecipe = () => {
     setData({ ...data, [e.target.name]: e.target.value });
   };
 
-  // Bit more complicated event handler for getting data from ingredients. First, we spread the current ingredients state and then look for that specific object in the array. We use the index, which is passed to the event handler. After updating the value in inputs, we will overwrite the Data state and add the ingredients array.
   const changeIncData = (e, i) => {
     const { name, value } = e.target;
     const incList = [...ingredients];
@@ -37,20 +36,17 @@ const AddRecipe = () => {
     setData({ ...data, inc: ingredients });
   };
 
-  // This event handler is reacting to our select event handler. We get the value from select, and then we find the correct alpha2Code. After that, we save valid code to the Data state.
   const changeCountry = (e) => {
     const correctCountry = countries.find((c) => c.name === e.target.value);
     setData({ ...data, country_code: correctCountry.alpha2Code });
   };
 
-  // This event handler will add an empty ingredient object to the ingredients array.
   const addMore = (e) => {
     e.preventDefault();
     const newInc = { id: ingredients.length + 1, incName: "", quantity: "" };
     setIngredients([...ingredients, newInc]);
   };
 
-  // After we have all data collected from inputs, we post the Data object from state.
   const submitData = (e) => {
     axios.post("http://localhost:3001/recipies", data);
   };
@@ -66,14 +62,13 @@ const AddRecipe = () => {
         <input type="text" name="author" id="author" onChange={changeData} />
 
         <label htmlFor="description">Description</label>
-        <textarea name="description" id="desc" onChange={changeData} />
+        <textarea name="desc" id="desc" onChange={changeData} />
 
         <label htmlFor="img">Image</label>
         <input type="url" name="img" id="img" onChange={changeData} />
 
         <label htmlFor="countryCode">Recipe is from:</label>
         <select name="country_code" id="countryCode" onChange={changeCountry}>
-          {/* This is a way how you can dynamically create select options based on the array by using a simple mapping method.*/}
           {countries.map((c) => (
             <option key={c.name}>{c.name}</option>
           ))}

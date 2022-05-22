@@ -200,6 +200,24 @@ a {
   color: white;
 }
 
+.flag-container {
+  position: absolute;
+  width: 100px;
+  overflow: hidden;
+}
+
+.flag {
+  position: relative;
+  width: 80px;
+  bottom: 0;
+  right: 0;
+}
+
+.imageContainer {
+  max-width: 100px;
+  overflow: hidden;
+}
+
 /* Single Recipe */
 
 /* make as a grid */

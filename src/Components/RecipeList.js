@@ -32,7 +32,7 @@ const RecipeList = () => {
     setLoading(true);
     Promise.all([getRecipes(), getCountries()]).then(function (results) {
       const recipesData = results[0];
-      const countriesData = results[1]; // because countries starts from first index
+      const countriesData = results[1];
 
       setRecipies(recipesData.data);
       setCountries(countriesData.data);
@@ -41,7 +41,6 @@ const RecipeList = () => {
     });
   }, []);
 
-  // conditional rendering
   if (loading) {
     return <p>Loading</p>;
   }

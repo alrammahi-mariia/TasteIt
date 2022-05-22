@@ -1,10 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import videoSrc from "../assets/cake.mp4";
 
 const Home = () => {
   return (
     <div>
       <div className="hero-banner">
+        <video
+          muted
+          loop
+          id="myVideo"
+          className="video"
+          autoPlay={true}
+          preload={"auto"}
+        >
+          <source src={videoSrc} type={"video/mp4"}></source>
+          Your browser does not support the video tag.
+        </video>
         <div className="hero-content">
           <h1>TasteIT</h1>
           <p>

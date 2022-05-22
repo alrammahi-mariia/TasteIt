@@ -6,9 +6,28 @@ const RecipeList = () => {
   const [recipies, setRecipies] = useState([]);
   const [countries, setCountries] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [data] = useState([]);
+  const [setFiltered] = useState(data);
 
   const getRecipes = () => axios.get("http://localhost:3001/recipies");
   const getCountries = () => axios.get("https://restcountries.com/v2/all");
+
+  const searchHandler = (e) => {
+    const result = data.filter((recipe) => {
+      let recipeCountry = recipe.country.toLowerCase();
+      let recipeName = recipe.name.toLowerCase();
+      let searched = e.target.value.toLowerCase();
+
+      //If searched word matches recipe name or country name show that RecipeCard
+      if (recipeName.includes(searched) || recipeCountry.includes(searched)) {
+        return recipe;
+      } else {
+        return "";
+      }
+    });
+    console.log(result);
+    setFiltered(result);
+  };
 
   useEffect(() => {
     setLoading(true);
@@ -32,7 +51,12 @@ const RecipeList = () => {
     <div>
       <div className="search-container">
         <label>Search for recipe:</label>
-        <input type="text"></input>
+        <input
+          type="text"
+          name="search"
+          onChange={searchHandler}
+          defaultValue=""
+        ></input>
       </div>
       <div className="recipes-container">
         <h2>Our recipes</h2>

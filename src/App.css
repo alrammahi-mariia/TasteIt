@@ -113,7 +113,7 @@ video {
 }
 
 .hero-button:hover {
-  background-color: #f5329438;
+  background-color: rgba(128, 128, 128, 0.265);
   text-decoration: none;
 }
 

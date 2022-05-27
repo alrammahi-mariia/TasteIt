@@ -5,9 +5,7 @@ const RecipeCard = ({ name, desc, img, data, country }) => {
   return (
     <div className="card">
       <img src={img} alt={name} />
-      <div className="flag-container">
-        <img className="flag" src={country.flag} alt={country.name} />
-      </div>
+      {/* <img src={country.flag} alt={country.name} /> */}
       <h3>{name}</h3>
       <p>{desc}</p>
       <Link to={name} state={{ data: data, country: country }}>

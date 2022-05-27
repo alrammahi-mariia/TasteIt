@@ -20,9 +20,9 @@ h3 {
 }
 
 header {
-  background-color: rgb(40, 35, 35);
+  background-color: #2a2b2a;
   height: 8vh;
-  color: white;
+  color: #e8e8e8;
 }
 
 main {
@@ -30,16 +30,17 @@ main {
 }
 
 header a {
-  color: white;
+  color: #e8e8e8;
   text-decoration: none;
 }
 
 header a:hover {
-  color: orange;
+  color: #ff75cd;
+  text-decoration: none;
 }
 
 a {
-  color: orange;
+  color: #f53292;
   text-decoration: none;
   cursor: pointer;
 }
@@ -94,9 +95,9 @@ video {
   position: absolute;
   height: 60vh;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.376);
+  background-color: #2a2b2a68;
   padding: 1rem;
-  color: white;
+  color: #e8e8e8;
 }
 
 .hero-button {
@@ -104,15 +105,15 @@ video {
   font-family: inherit;
   font-size: 16px;
   background-color: transparent;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #e8e8e8;
+  color: #e8e8e8;
   border-radius: 25px;
   margin: 7rem 6rem;
   cursor: pointer;
 }
 
 .hero-button:hover {
-  background-color: rgba(172, 155, 155, 0.369);
+  background-color: #f5329438;
   text-decoration: none;
 }
 
@@ -286,27 +287,25 @@ select {
 }
 
 .ingredients-container button {
-  width: 150px;
+  width: 110px;
   margin-top: 1rem;
   padding: 10px;
   font-family: inherit;
-  font-size: 16px;
   border: 1px solid grey;
   background: transparent;
-  color: grey;
+  color: #424240;
   border-radius: 3px;
   cursor: pointer;
 }
 
 form input[type="submit"] {
-  width: 150px;
+  width: 100px;
   margin-top: 1rem;
   padding: 10px;
   font-family: inherit;
-  font-size: 16px;
-  background-color: grey;
-  border: 1px solid grey;
-  color: white;
+  background-color: #424240;
+  border: none;
+  color: #e8e8e8;
   border-radius: 3px;
   cursor: pointer;
 }

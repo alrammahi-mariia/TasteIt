@@ -5,7 +5,7 @@ const RecipeCard = ({ name, desc, img, data, country }) => {
   return (
     <div className="card">
       <div className="flag-container">
-        <img src={country.flag} alt={country.name} className="flag" />
+        {/* <img src={country.flag} alt={country.name} className="flag" /> */}
       </div>
       <div className="image-container">
         <img src={img} alt={name} />

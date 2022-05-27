@@ -129,9 +129,8 @@
           "quantity": "3 cups"
         }
       ],
-      "inst": "",
+      "inst": "Pour chicken broth into a pot; bring to a simmer over medium-low heat. Heat olive oil in a large saucepan over medium heat. Cook and stir onion and garlic in the hot oil until slightly softened, about 2 minutes. Add Arborio rice; cook, stirring frequently, until coated with oil, about 4 minutes. Stir 1/2 cup of the hot chicken broth into the saucepan; cook and stir until the rice has absorbed the broth, about 2 minutes. Repeat this process 4 more times, stirring constantly, until rice is creamy and tender yet firm to the bite, about 15 minutes. Stir shrimp and asparagus into the remaining hot broth. Cook until shrimp turns pink, 2 to 3 minutes. Remove broth from heat. Stir shrimp and asparagus into the rice; cook for 1 minute. Stir Parmesan cheese and butter into the rice; cook until melted, about 1 minute. Remove rice from heat. Season with salt and pepper. Sprinkle parsley over each serving.",
       "img": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets-ucg.meredithcorp.io%2Faa6187d1d3ab16962ac5155d4d6fd72f%2F4517640.jpg&w=596&h=596&c=sc&poi=face&q=60",
-      "instructions": "Pour chicken broth into a pot; bring to a simmer over medium-low heat. Heat olive oil in a large saucepan over medium heat. Cook and stir onion and garlic in the hot oil until slightly softened, about 2 minutes. Add Arborio rice; cook, stirring frequently, until coated with oil, about 4 minutes. Stir 1/2 cup of the hot chicken broth into the saucepan; cook and stir until the rice has absorbed the broth, about 2 minutes. Repeat this process 4 more times, stirring constantly, until rice is creamy and tender yet firm to the bite, about 15 minutes. Stir shrimp and asparagus into the remaining hot broth. Cook until shrimp turns pink, 2 to 3 minutes. Remove broth from heat. Stir shrimp and asparagus into the rice; cook for 1 minute. Stir Parmesan cheese and butter into the rice; cook until melted, about 1 minute. Remove rice from heat. Season with salt and pepper. Sprinkle parsley over each serving.",
       "id": 3
     },
     {
@@ -157,19 +156,8 @@
           "quantity": "150 ml"
         }
       ],
-      "inst": "",
-      "instructions": "Add the flour, salt, sugar, and olive oil, and using the mixing paddle attachment, mix on low speed for a minute. Then replace the mixing paddle with the dough hook attachment.\n\nKnead the pizza dough on low to medium speed using the dough hook about 7-10 minutes.\n\nIf you don't have a mixer, you can mix the ingredients together and knead them by hand.\n\nThe dough should be a little sticky, or tacky to the touch. If it's too wet, sprinkle in a little more flour.",
+      "inst": "Add the flour, salt, sugar, and olive oil, and using the mixing paddle attachment, mix on low speed for a minute. Then replace the mixing paddle with the dough hook attachment.\n\nKnead the pizza dough on low to medium speed using the dough hook about 7-10 minutes.\n\nIf you don't have a mixer, you can mix the ingredients together and knead them by hand.\n\nThe dough should be a little sticky, or tacky to the touch. If it's too wet, sprinkle in a little more flour.",
       "id": 4
-    },
-    {
-      "name": "",
-      "author": "",
-      "desc": "",
-      "country_code": "",
-      "img": "",
-      "inc": [],
-      "inst": "",
-      "id": 5
     }
   ]
 }

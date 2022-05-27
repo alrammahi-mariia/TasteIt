@@ -10,9 +10,19 @@ const RecipeSingle = () => {
     <div>
       <h1 className="recipe-name">{recipe.name}</h1>
       <div className="recipe-container">
-        <div className="left-container">
-          f */}
+        <div className="item-1">
+          <div className="flag-container">
+            <img src={country.flag} alt={country.name} className="flag" />
+          </div>
           <img src={recipe.img} alt={recipe.name} />
+        </div>
+        <div className="item-2">
+          <h2>Description</h2>
+          <p>{recipe.desc}</p>
+          <h2>Author</h2>
+          <p>{recipe.author}</p>
+        </div>
+        <div className="item-3">
           <h2>Ingredients:</h2>
           {recipe.inc?.map((incName) => {
             return (
@@ -22,12 +32,7 @@ const RecipeSingle = () => {
             );
           })}
         </div>
-
-        <div className="right-container">
-          <h2>Description</h2>
-          <p>{recipe.desc}</p>
-          <h2>Author</h2>
-          <p>{recipe.author}</p>
+        <div className="item-4">
           <h2>Preparation</h2>
           <p>{recipe.inst}</p>
         </div>

@@ -73,31 +73,37 @@ const AddRecipe = () => {
             <option key={c.name}>{c.name}</option>
           ))}
         </select>
-        <p>Ingredients</p>
-        {ingredients.map((_, i) => {
-          return (
-            <div key={i}>
-              <label htmlFor="quantity">Quantity</label>
-              <input
-                type="text"
-                name="quantity"
-                id="quantity"
-                onChange={(e) => changeIncData(e, i)}
-              />
-              <label htmlFor="incName">Ingredient</label>
-              <input
-                type="text"
-                name="incName"
-                id="incName"
-                onChange={(e) => changeIncData(e, i)}
-              />
-            </div>
-          );
-        })}
-        <button onClick={addMore}>Add more ingredients</button>
+        <div className="ingredients-container">
+          <h3>Ingredients</h3>
+          {ingredients.map((_, i) => {
+            return (
+              <div>
+                <div key={i}>
+                  <label htmlFor="quantity">Quantity</label>
+                  <input
+                    type="text"
+                    name="quantity"
+                    id="quantity"
+                    onChange={(e) => changeIncData(e, i)}
+                  />
+                </div>
+                <div>
+                  <label htmlFor="incName">Ingredient</label>
+                  <input
+                    type="text"
+                    name="incName"
+                    id="incName"
+                    onChange={(e) => changeIncData(e, i)}
+                  />
+                </div>
+              </div>
+            );
+          })}
+          <button onClick={addMore}>Add more</button>
+        </div>
         <label htmlFor="instructions">Instructions</label>
         <textarea name="instructions" id="inst" onChange={changeData} />
-        <input type="submit" value="Post recipe" />
+        <input type="submit" value="Post recipe" className="" />
       </form>
     </div>
   );

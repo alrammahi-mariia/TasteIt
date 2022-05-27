@@ -21,7 +21,7 @@ h3 {
 
 header {
   background-color: rgb(40, 35, 35);
-  height: 5vh;
+  height: 8vh;
   color: white;
 }
 
@@ -97,7 +97,6 @@ video {
   background-color: rgba(0, 0, 0, 0.376);
   padding: 1rem;
   color: white;
-  /* backdrop-filter: blur(1px); */
 }
 
 .hero-button {
@@ -197,27 +196,19 @@ a {
   cursor: pointer;
 }
 
-/* 
-
-.flag-container {
-  position: absolute;
-  width: 100px;
-  overflow: hidden;
-}
-
-.flag {
-  position: relative;
-  width: 80px;
-  bottom: 0;
-  right: 0;
-} */
-
 /* Single Recipe */
 
 .recipe-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
   margin: 5rem;
+}
+
+.item-1 img {
+  max-width: 600px;
+  max-height: 600px;
+  float: center;
 }
 
 .recipe-name {
@@ -225,32 +216,27 @@ a {
   text-align: center;
 }
 
-/*
-
-.left-container,
-.right-container {
-  width: 50vw;
-  min-width: 200px;
-  padding: 1rem;
-}
-
-.left-container img {
-  max-height: 50vh;
-} */
-
-/* .left-container .flag-container {
-  position: relative;
-  top: 60px;
-} */
-
 .ingredients {
   border: 0.5px solid lightgray;
   padding: 0.5rem;
 }
 
-.flag-containter {
+.item-3 h2 {
+  margin-bottom: 1rem;
+}
+
+.flag-container {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.flag {
   position: relative;
-  top: 60px;
+  width: 100px;
+  bottom: 0;
+  right: 0;
 }
 
 /* Add recipe */
@@ -279,23 +265,48 @@ textarea {
   border: 1px solid grey;
 }
 
+form textarea {
+  height: 100px;
+}
+
 form label {
   margin-top: 1rem;
 }
 
-form input[type="submit"] {
-  width: 100px;
-  margin-top: 1rem;
-  padding: 5px;
+select {
+  width: 250px;
+  padding: 0.5rem;
+  border: 1px solid gray;
+  border-radius: 3px;
   font-family: inherit;
+}
+
+.ingredients-container {
+  margin: 1rem auto;
+}
+
+.ingredients-container button {
+  width: 150px;
+  margin-top: 1rem;
+  padding: 10px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 1px solid grey;
+  background: transparent;
+  color: grey;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+form input[type="submit"] {
+  width: 150px;
+  margin-top: 1rem;
+  padding: 10px;
+  font-family: inherit;
+  font-size: 16px;
   background-color: grey;
   border: 1px solid grey;
   color: white;
   border-radius: 3px;
   cursor: pointer;
-}
-
-form .footer {
-  text-align: center;
-  margin-top: 1rem;
 }

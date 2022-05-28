@@ -5,28 +5,19 @@ import RecipeCard from "./RecipeCard";
 const RecipeList = () => {
   const [recipies, setRecipies] = useState([]);
   const [countries, setCountries] = useState([]);
+  const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(false);
-  // const [data] = useState([]);
-  // const [setFiltered] = useState(data);
 
   const getRecipes = () => axios.get("http://localhost:3001/recipies");
   const getCountries = () => axios.get("https://restcountries.com/v2/all");
 
-  // const searchHandler = (e) => {
-  //   const result = data.filter((recipe) => {
-  //     let recipeCountry = recipe.country.toLowerCase();
-  //     let recipeName = recipe.name.toLowerCase();
-  //     let searched = e.target.value.toLowerCase();
+  const searchHandler = (e) => {
+    setSearch(e.target.value);
+  };
 
-  //     if (recipeName.includes(searched) || recipeCountry.includes(searched)) {
-  //       return recipe;
-  //     } else {
-  //       return "";
-  //     }
-  //   });
-  //   console.log(result);
-  //   setFiltered(result);
-  // };
+  const searchFilter = recipies.filter((recipe) => {
+    return recipe.name.toLowerCase().includes(search.toLowerCase());
+  });
 
   useEffect(() => {
     setLoading(true);
@@ -52,14 +43,14 @@ const RecipeList = () => {
         <input
           type="text"
           name="search"
-          // onChange={searchHandler}
+          onChange={searchHandler}
           defaultValue=""
         ></input>
       </div>
       <div className="recipes-container">
         <h2>Our recipes</h2>
         <div className="recipes-cards">
-          {recipies.map((recipe) => (
+          {searchFilter.map((recipe) => (
             <RecipeCard
               key={recipe.id}
               data={recipe}

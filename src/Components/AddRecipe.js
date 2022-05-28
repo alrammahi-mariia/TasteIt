@@ -102,7 +102,7 @@ const AddRecipe = () => {
           <button onClick={addMore}>Add more</button>
         </div>
         <label htmlFor="instructions">Instructions</label>
-        <textarea name="instructions" id="inst" onChange={changeData} />
+        <textarea name="inst" id="inst" onChange={changeData} />
         <input type="submit" value="Post recipe" className="" />
       </form>
     </div>

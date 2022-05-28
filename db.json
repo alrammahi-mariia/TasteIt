@@ -3,288 +3,315 @@
     {
       "name": "Garlic Shrimp and Asparagus Risotto",
       "author": "Mariia",
-      "desc": "Delicious risotto your whole family will enjoy!",
+      "description": "Delicious risotto your whole family will enjoy!",
       "country_code": "IT",
-      "inc": [
+      "ingr": [
         {
           "id": 1,
-          "incName": "olive oil",
+          "inSingle": "olive oil",
           "quantity": "2 tbsp"
         },
         {
           "id": 2,
-          "incName": "onion",
+          "inSingle": "onion",
           "quantity": "1/3"
         },
         {
           "id": 3,
-          "incName": "clove garlic",
+          "inSingle": "clove garlic",
           "quantity": "1/2"
         },
         {
           "id": 4,
-          "incName": "raw shrimp",
+          "inSingle": "raw shrimp",
           "quantity": "450g"
         },
         {
           "id": 5,
-          "incName": "asparagus",
+          "inSingle": "asparagus",
           "quantity": "450g"
         },
         {
           "id": 6,
-          "incName": "parmesan ",
+          "inSingle": "parmesan ",
           "quantity": "1/2 cup"
         },
         {
           "id": 7,
-          "incName": "Arborio rice",
+          "inSingle": "Arborio rice",
           "quantity": "3 cups"
         }
       ],
-      "inst": "Pour chicken broth into a pot; bring to a simmer over medium-low heat. Heat olive oil in a large saucepan over medium heat. Cook and stir onion and garlic in the hot oil until slightly softened, about 2 minutes. Add Arborio rice; cook, stirring frequently, until coated with oil, about 4 minutes. Stir 1/2 cup of the hot chicken broth into the saucepan; cook and stir until the rice has absorbed the broth, about 2 minutes. Repeat this process 4 more times, stirring constantly, until rice is creamy and tender yet firm to the bite, about 15 minutes. Stir shrimp and asparagus into the remaining hot broth. Cook until shrimp turns pink, 2 to 3 minutes. Remove broth from heat. Stir shrimp and asparagus into the rice; cook for 1 minute. Stir Parmesan cheese and butter into the rice; cook until melted, about 1 minute. Remove rice from heat. Season with salt and pepper. Sprinkle parsley over each serving.",
+      "instruction": "Pour chicken broth into a pot; bring to a simmer over medium-low heat. Heat olive oil in a large saucepan over medium heat. Cook and stir onion and garlic in the hot oil until slightly softened, about 2 minutes. Add Arborio rice; cook, stirring frequently, until coated with oil, about 4 minutes. Stir 1/2 cup of the hot chicken broth into the saucepan; cook and stir until the rice has absorbed the broth, about 2 minutes. Repeat this process 4 more times, stirring constantly, until rice is creamy and tender yet firm to the bite, about 15 minutes. Stir shrimp and asparagus into the remaining hot broth. Cook until shrimp turns pink, 2 to 3 minutes. Remove broth from heat. Stir shrimp and asparagus into the rice; cook for 1 minute. Stir Parmesan cheese and butter into the rice; cook until melted, about 1 minute. Remove rice from heat. Season with salt and pepper. Sprinkle parsley over each serving.",
       "img": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets-ucg.meredithcorp.io%2Faa6187d1d3ab16962ac5155d4d6fd72f%2F4517640.jpg&w=596&h=596&c=sc&poi=face&q=60",
       "id": 3
     },
     {
       "name": "Pizza",
       "author": "Mariia",
-      "desc": "Make perfect pizza at home with this classic homemade pizza recipe, including a pizza dough recipe, topping suggestions, and step-by-step instructions with photos.",
+      "description": "Make perfect pizza at home with this classic homemade pizza recipe, including a pizza dough recipe, topping suggestions, and step-by-step instructions with photos.",
       "country_code": "IT",
       "img": "https://www.simplyrecipes.com/thmb/mbN8mXZ0srgAT1YrDU61183t0uM=/648x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Homemade-Pizza-Dough-Lead-Shot-1b-ea13798d224048b3a28afb0936c9b645.jpg",
-      "inc": [
+      "ingr": [
         {
           "id": 1,
-          "incName": "cheese",
+          "inSingle": "cheese",
           "quantity": "1 cup"
         },
         {
           "id": 2,
-          "incName": "flour",
+          "inSingle": "flour",
           "quantity": "2 cups"
         },
         {
           "id": 3,
-          "incName": "milk",
+          "inSingle": "milk",
           "quantity": "150 ml"
         }
       ],
-      "inst": "Add the flour, salt, sugar, and olive oil, and using the mixing paddle attachment, mix on low speed for a minute. Then replace the mixing paddle with the dough hook attachment.\n\nKnead the pizza dough on low to medium speed using the dough hook about 7-10 minutes.\n\nIf you don't have a mixer, you can mix the ingredients together and knead them by hand.\n\nThe dough should be a little sticky, or tacky to the touch. If it's too wet, sprinkle in a little more flour.",
+      "instruction": "Add the flour, salt, sugar, and olive oil, and using the mixing paddle attachment, mix on low speed for a minute. Then replace the mixing paddle with the dough hook attachment.\n\nKnead the pizza dough on low to medium speed using the dough hook about 7-10 minutes.\n\nIf you don't have a mixer, you can mix the ingredients together and knead them by hand.\n\nThe dough should be a little sticky, or tacky to the touch. If it's too wet, sprinkle in a little more flour.",
       "id": 4
     },
     {
       "name": "Biryani",
       "author": "John",
-      "desc": "Everyone loves chicken biryani rice, and here is why this deliciously flavored chicken biryani recipe conquers the heart of the most demanding gastronomes. The process of cooking in dum style enable the aroma and flavor imbue into the rice grains, which make every bite blissful.",
+      "description": "Everyone loves chicken biryani rice, and here is why this deliciously flavored chicken biryani recipe conquers the heart of the most demanding gastronomes. The process of cooking in dum style enable the aroma and flavor imbue into the rice grains, which make every bite blissful.",
       "country_code": "IQ",
       "img": "https://kfoods.com/images1/newrecipeicon/iraqi-biryani_11398.jpg",
-      "inc": [
+      "ingr": [
         {
           "id": 1,
-          "incName": "minced lamb",
+          "inSingle": "minced lamb",
           "quantity": "250g"
         },
         {
           "id": 2,
-          "incName": "vegetable Oil",
+          "inSingle": "vegetable Oil",
           "quantity": "1 cup"
         },
         {
           "id": 3,
-          "incName": "potato",
+          "inSingle": "potato",
           "quantity": "1 large"
         },
         {
           "id": 4,
-          "incName": "carrot chopped",
+          "inSingle": "carrot chopped",
           "quantity": "1 medium"
         },
         {
           "id": 5,
-          "incName": "onion",
+          "inSingle": "onion",
           "quantity": "1 medium"
         },
         {
           "id": 6,
-          "incName": "raisins",
+          "inSingle": "raisins",
           "quantity": "2 tbsp"
         },
         {
           "id": 7,
-          "incName": "rice",
+          "inSingle": "rice",
           "quantity": "2 cups"
         },
         {
           "id": 8,
-          "incName": "vermicelli",
+          "inSingle": "vermicelli",
           "quantity": "3/4 cups"
         },
         {
           "id": 9,
-          "incName": "chicken buillon",
+          "inSingle": "chicken buillon",
           "quantity": "2 cubes"
         },
         {
           "id": 10,
-          "incName": "water",
+          "inSingle": "water",
           "quantity": "4 cups"
         }
       ],
-      "inst": "1. In a mixing bowl, combine minced lamb, onion and parsley (season with salt and pepper). Form meat mixture into small balls; place in a baking tray and bake in a preheated oven at 200˚C for 10 minutes or until meat balls are cooked. Remove and set aside.Meanwhile, deep fry potato and carrot in the hot oil (reserve 2 tablespoons of oil) and set them aside over a kitchen tissue to absorb any excess oil. In a medium saucepan, heat the reserved oil and sauté onion until its tender then add green peas, shredded chicken meat, raisins, black pepper powder, saffron leaves, almonds, the prepared meat balls potato and carrot. Stir until well combined and set aside (add salt to your taste).In a medium pot, melt the ghee, add the vermicelli and stir until vermicelli is changed in color to golden brown; Add rice, Chicken Bouillon cubes and spices (add salt if needed). Stir for seconds then add the water and stir constantly to boil. Cover and simmer over a low heat for 20 minutes or until rice is cooked. Add the prepared meat and vegetable mixture over the rice and mix all carefully with the rice. Cover and cook for another 5 minutes then serve.Serving tips : Serve with green salad and laban drink.",
+      "instruction": "1. In a mixing bowl, combine minced lamb, onion and parsley (season with salt and pepper). Form meat mixture into small balls; place in a baking tray and bake in a preheated oven at 200˚C for 10 minutes or until meat balls are cooked. Remove and set aside.Meanwhile, deep fry potato and carrot in the hot oil (reserve 2 tablespoons of oil) and set them aside over a kitchen tissue to absorb any excess oil. In a medium saucepan, heat the reserved oil and sauté onion until its tender then add green peas, shredded chicken meat, raisins, black pepper powder, saffron leaves, almonds, the prepared meat balls potato and carrot. Stir until well combined and set aside (add salt to your taste).In a medium pot, melt the ghee, add the vermicelli and stir until vermicelli is changed in color to golden brown; Add rice, Chicken Bouillon cubes and spices (add salt if needed). Stir for seconds then add the water and stir constantly to boil. Cover and simmer over a low heat for 20 minutes or until rice is cooked. Add the prepared meat and vegetable mixture over the rice and mix all carefully with the rice. Cover and cook for another 5 minutes then serve.Serving tips : Serve with green salad and laban drink.",
       "id": 5
     },
     {
       "name": "Finnish Salmon Soup",
       "author": "Liisa",
-      "desc": "This Finnish Salmon Soup, known as Lohikeitto in the homeland, is to die for. Creamy and hearty, it is guaranteed to warm your soul on cold fall and winter days. Plus, it's really easy and quick to make - ready in a half an hour!",
+      "description": "This Finnish Salmon Soup, known as Lohikeitto in the homeland, is to die for. Creamy and hearty, it is guaranteed to warm your soul on cold fall and winter days. Plus, it's really easy and quick to make - ready in a half an hour!",
       "country_code": "FI",
       "img": "https://cookingtheglobe.com/wp-content/uploads/2015/12/Finnish-Salmon-Soup-Lohikeitto-3.jpg.webp",
-      "inc": [
+      "ingr": [
         {
           "id": 1,
-          "incName": "unsalted butter",
+          "inSingle": "unsalted butter",
           "quantity": "1/2 stick"
         },
         {
           "id": 2,
-          "incName": "leek",
+          "inSingle": "leek",
           "quantity": "1"
         },
         {
           "id": 3,
-          "incName": "fish stock",
+          "inSingle": "fish stock",
           "quantity": "5 cups"
         },
         {
           "id": 4,
-          "incName": "potatoes",
+          "inSingle": "potatoes",
           "quantity": "450g"
         },
         {
           "id": 5,
-          "incName": "carrot",
+          "inSingle": "carrot",
           "quantity": "1"
         },
         {
           "id": 6,
-          "incName": "salmon fillet, cubed",
+          "inSingle": "salmon fillet, cubed",
           "quantity": "450g"
         },
         {
           "id": 7,
-          "incName": "heavy cream",
+          "inSingle": "heavy cream",
           "quantity": "1 cup"
         }
       ],
-      "inst": "Melt the butter in a pot. Add the sliced leek and saute until translucent, about 7 minutes. Add the stock, carrot and potatoes. Bring to a boil and cook for about 10 minutes over medium heat. At this point the potatoes should be almost ready. Add the salmon chunks and the cream, and cook for about 5-7 minutes more, until it starts to boil. Turn off the heat and add the dill, salt and pepper. Close the lid and wait for another 10 minutes. Enjoy!",
+      "instruction": "Melt the butter in a pot. Add the sliced leek and saute until translucent, about 7 minutes. Add the stock, carrot and potatoes. Bring to a boil and cook for about 10 minutes over medium heat. At this point the potatoes should be almost ready. Add the salmon chunks and the cream, and cook for about 5-7 minutes more, until it starts to boil. Turn off the heat and add the dill, salt and pepper. Close the lid and wait for another 10 minutes. Enjoy!",
       "id": 6
     },
     {
       "name": "Ukrainian Borscht Recipe",
       "author": "Nathaly",
-      "desc": "This iconic red beet soup is made with beef (or vegetarian), cabbage, potatoes, carrots, garlic and dill, and then served with a dollop of sour cream and rye bread. It is also super healthy and nutritious. Everyone in our house loves borscht and I hope you will too!",
+      "description": "This iconic red beet soup is made with beef (or vegetarian), cabbage, potatoes, carrots, garlic and dill, and then served with a dollop of sour cream and rye bread. It is also super healthy and nutritious. Everyone in our house loves borscht and I hope you will too!",
       "country_code": "UA",
       "img": "https://i0.wp.com/ifoodreal.com/wp-content/uploads/2020/02/ukrainian-borscht-recipe-16.jpg?resize=678%2C1024&ssl=1",
-      "inc": [
+      "ingr": [
         {
           "id": 1,
-          "incName": "beef or vegetable broth or stock",
+          "inSingle": "beef or vegetable broth or stock",
           "quantity": "12 cups"
         },
         {
           "id": 2,
-          "incName": "green or red cabbage thinly sliced",
+          "inSingle": "green or red cabbage thinly sliced",
           "quantity": "5 cups"
         },
         {
           "id": 3,
-          "incName": "onion",
+          "inSingle": "onion",
           "quantity": "1 large"
         },
         {
           "id": 4,
-          "incName": "carrots chopped",
+          "inSingle": "carrots chopped",
           "quantity": "3 medium"
         },
         {
           "id": 5,
-          "incName": "potatoes peeled and cubed",
+          "inSingle": "potatoes peeled and cubed",
           "quantity": "4 large"
         },
         {
           "id": 6,
-          "incName": "tomato paste",
+          "inSingle": "tomato paste",
           "quantity": "1 can"
         },
         {
           "id": 7,
-          "incName": "bay leaf",
+          "inSingle": "bay leaf",
           "quantity": "1"
         },
         {
           "id": 8,
-          "incName": "salt and pepper",
+          "inSingle": "salt and pepper",
           "quantity": "to taste"
         },
         {
           "id": 9,
-          "incName": "Yogurt sour cream and rye bread, for serving",
+          "inSingle": "Yogurt sour cream and rye bread, for serving",
           "quantity": ""
         },
         {
           "id": 10,
-          "incName": "garlic cloves grated",
+          "inSingle": "garlic cloves grated",
           "quantity": "3 large"
         }
       ],
-      "inst": "In a large pot (I use 6 quart Dutch oven), add broth, bay leaves and bring to a boil. In the meanwhile, wash, peel and cut vegetables.\nOnce broth is boiling, add cabbage, cover and bring to a boil. Then reduce heat to low and cook for 20 minutes.\nIn the meanwhile, preheat large skillet on medium heat and swirl 1 tbsp of oil to coat. Add onion, carrots and saute for 5 minutes, stirring occasionally.\nAdd beets, remaining 1 tbsp of oil and cook for another 3-4 minutes.\nTransfer sauteed veggies to a pot along with potatoes, tomato paste and salt. Cover, bring to a boil and cook on low heat for 20 minutes.\nTurn off heat. Add vinegar, sugar, garlic and pepper. Stir and let borscht sit for 10 minutes to allow flavours to marry each other. Add dill, stir and adjust any seasonings to taste.\nServe hot with a dollop of yogurt or sour cream, bread and garlic clove on the side (this is not for everyone).",
+      "instruction": "In a large pot (I use 6 quart Dutch oven), add broth, bay leaves and bring to a boil. In the meanwhile, wash, peel and cut vegetables.\nOnce broth is boiling, add cabbage, cover and bring to a boil. Then reduce heat to low and cook for 20 minutes.\nIn the meanwhile, preheat large skillet on medium heat and swirl 1 tbsp of oil to coat. Add onion, carrots and saute for 5 minutes, stirring occasionally.\nAdd beets, remaining 1 tbsp of oil and cook for another 3-4 minutes.\nTransfer sauteed veggies to a pot along with potatoes, tomato paste and salt. Cover, bring to a boil and cook on low heat for 20 minutes.\nTurn off heat. Add vinegar, sugar, garlic and pepper. Stir and let borscht sit for 10 minutes to allow flavours to marry each other. Add dill, stir and adjust any seasonings to taste.\nServe hot with a dollop of yogurt or sour cream, bread and garlic clove on the side (this is not for everyone).",
       "id": 7
     },
     {
       "name": "Fluffy American pancakes",
       "author": "Dorothy",
-      "desc": "This easy American pancake recipe makes light and fluffy pancakes that are great for a weekend brunch. Try adding a large handful of fresh blueberries to the batter before cooking.",
+      "description": "This easy American pancake recipe makes light and fluffy pancakes that are great for a weekend brunch. Try adding a large handful of fresh blueberries to the batter before cooking.",
       "country_code": "US",
       "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/fluffyamericanpancak_74828_16x9.jpg",
-      "inc": [
+      "ingr": [
         {
           "id": 1,
-          "incName": " plain flour",
+          "inSingle": " plain flour",
           "quantity": "135g"
         },
         {
           "id": 2,
-          "incName": "baking powder",
+          "inSingle": "baking powder",
           "quantity": "1tsp"
         },
         {
           "id": 3,
-          "incName": " salt",
+          "inSingle": " salt",
           "quantity": "1/2 tsp"
         },
         {
           "id": 4,
-          "incName": "caster sugar",
+          "inSingle": "caster sugar",
           "quantity": "2 tbsp"
         },
         {
           "id": 5,
-          "incName": " milk",
+          "inSingle": " milk",
           "quantity": "130ml"
         },
         {
           "id": 6,
-          "incName": "egg, slightly beaten",
+          "inSingle": "egg, slightly beaten",
           "quantity": "1 large"
         },
         {
           "id": 7,
-          "incName": "melted butter",
+          "inSingle": "melted butter",
           "quantity": "2 tbsp"
         }
       ],
-      "inst": "Sift the flour, baking powder, salt and caster sugar into a large bowl. In a separate bowl or jug, lightly whisk together the milk and egg, then whisk in the melted butter. Pour the milk mixture into the flour mixture and, using a fork, beat until you have a smooth batter. Any lumps will soon disappear with a little mixing. Let the batter stand for a few minutes.\n\nHeat a non-stick frying pan over a medium heat and add a knob of butter. When it's melted, add a ladle of batter (or two if your frying pan is big enough to cook two pancakes at the same time). It will seem very thick but this is how it should be. Wait until the top of the pancake begins to bubble, then turn it over and cook until both sides are golden brown and the pancake has risen to about 1cm/½in thick.\n\nRepeat until all the batter is used up. You can keep the pancakes warm in a low oven, but they taste best fresh out the pan.\n\nServe with lashings of real maple syrup and extra butter, if you like.",
+      "instruction": "Sift the flour, baking powder, salt and caster sugar into a large bowl. In a separate bowl or jug, lightly whisk together the milk and egg, then whisk in the melted butter. Pour the milk mixture into the flour mixture and, using a fork, beat until you have a smooth batter. Any lumps will soon disappear with a little mixing. Let the batter stand for a few minutes.\n\nHeat a non-stick frying pan over a medium heat and add a knob of butter. When it's melted, add a ladle of batter (or two if your frying pan is big enough to cook two pancakes at the same time). It will seem very thick but this is how it should be. Wait until the top of the pancake begins to bubble, then turn it over and cook until both sides are golden brown and the pancake has risen to about 1cm/½in thick.\n\nRepeat until all the batter is used up. You can keep the pancakes warm in a low oven, but they taste best fresh out the pan.\n\nServe with lashings of real maple syrup and extra butter, if you like.",
       "id": 8
+    },
+    {
+      "name": "Pizza",
+      "author": "Mariia",
+      "description": "uiuiku",
+      "country_code": "AQ",
+      "img": "https://unsplash.com/photos/kfDsMDyX1K0",
+      "ingr": [
+        {
+          "id": 1,
+          "inSingle": "flour",
+          "quantity": "2 tbsp"
+        }
+      ],
+      "instruction": "",
+      "instructions": "ckjvdjlkdj",
+      "id": 9
+    },
+    {
+      "name": "",
+      "author": "",
+      "description": "",
+      "country_code": "",
+      "img": "",
+      "ingr": [],
+      "instruction": "",
+      "id": 10
     }
   ]
 }

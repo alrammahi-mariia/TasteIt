@@ -18,23 +18,25 @@ const RecipeSingle = () => {
         </div>
         <div className="item-2">
           <h2>Description</h2>
-          <p>{recipe.desc}</p>
+          <p>{recipe.description}</p>
           <h2>Author</h2>
           <p>{recipe.author}</p>
+          <h2>Country</h2>
+          <p>{country.name}</p>
         </div>
         <div className="item-3">
           <h2>Ingredients:</h2>
-          {recipe.inc?.map((incName) => {
+          {recipe.ingr?.map((inSingle) => {
             return (
-              <div className="ingredients" key={incName.incName}>
-                {incName.quantity} {incName.incName}
+              <div className="ingredients" key={inSingle.inSingle}>
+                {inSingle.quantity} {inSingle.inSingle}
               </div>
             );
           })}
         </div>
         <div className="item-4">
           <h2>Preparation</h2>
-          <p>{recipe.inst}</p>
+          <p>{recipe.instruction}</p>
         </div>
       </div>
     </div>

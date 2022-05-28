@@ -11,14 +11,6 @@ const RecipeList = () => {
   const getRecipes = () => axios.get("http://localhost:3001/recipies");
   const getCountries = () => axios.get("https://restcountries.com/v2/all");
 
-  const searchHandler = (e) => {
-    setSearch(e.target.value);
-  };
-
-  const searchFilter = recipies.filter((recipe) => {
-    return recipe.name.toLowerCase().includes(search.toLowerCase());
-  });
-
   useEffect(() => {
     setLoading(true);
     Promise.all([getRecipes(), getCountries()]).then(function (results) {
@@ -32,6 +24,14 @@ const RecipeList = () => {
     });
   }, []);
 
+  const handleSearch = (e) => {
+    setSearch(e.target.value);
+  };
+
+  const searchFilter = recipies.filter((recipe) => {
+    return recipe.name.toLowerCase().includes(search.toLowerCase());
+  });
+
   if (loading) {
     return <p>Loading</p>;
   }
@@ -43,7 +43,7 @@ const RecipeList = () => {
         <input
           type="text"
           name="search"
-          onChange={searchHandler}
+          onChange={handleSearch}
           defaultValue=""
         ></input>
       </div>

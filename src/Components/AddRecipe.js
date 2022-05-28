@@ -5,15 +5,15 @@ const AddRecipe = () => {
   const [data, setData] = useState({
     name: "",
     author: "",
-    desc: "",
+    description: "",
     country_code: "",
     img: "",
-    inc: [],
-    inst: "",
+    ingr: [],
+    instruction: "",
   });
 
   const [ingredients, setIngredients] = useState([
-    { id: 1, incName: "", quantity: "" },
+    { id: 1, inSingle: "", quantity: "" },
   ]);
 
   const [countries, setCountries] = useState([]);
@@ -28,12 +28,12 @@ const AddRecipe = () => {
     setData({ ...data, [e.target.name]: e.target.value });
   };
 
-  const changeIncData = (e, i) => {
+  const changeIngrData = (e, i) => {
     const { name, value } = e.target;
-    const incList = [...ingredients];
-    incList[i][name] = value;
-    setIngredients(incList);
-    setData({ ...data, inc: ingredients });
+    const ingrList = [...ingredients];
+    ingrList[i][name] = value;
+    setIngredients(ingrList);
+    setData({ ...data, ingr: ingredients });
   };
 
   const changeCountry = (e) => {
@@ -43,8 +43,8 @@ const AddRecipe = () => {
 
   const addMore = (e) => {
     e.preventDefault();
-    const newInc = { id: ingredients.length + 1, incName: "", quantity: "" };
-    setIngredients([...ingredients, newInc]);
+    const newIngr = { id: ingredients.length + 1, inSingle: "", quantity: "" };
+    setIngredients([...ingredients, newIngr]);
   };
 
   const submitData = (e) => {
@@ -62,7 +62,7 @@ const AddRecipe = () => {
         <input type="text" name="author" id="author" onChange={changeData} />
 
         <label htmlFor="description">Description</label>
-        <textarea name="desc" id="desc" onChange={changeData} />
+        <textarea name="description" id="desc" onChange={changeData} />
 
         <label htmlFor="img">Image</label>
         <input type="url" name="img" id="img" onChange={changeData} />
@@ -84,16 +84,16 @@ const AddRecipe = () => {
                     type="text"
                     name="quantity"
                     id="quantity"
-                    onChange={(e) => changeIncData(e, i)}
+                    onChange={(e) => changeIngrData(e, i)}
                   />
                 </div>
                 <div>
-                  <label htmlFor="incName">Ingredient</label>
+                  <label htmlFor="inSingle">Ingredient</label>
                   <input
                     type="text"
-                    name="incName"
-                    id="incName"
-                    onChange={(e) => changeIncData(e, i)}
+                    name="inSingle"
+                    id="inSingle"
+                    onChange={(e) => changeIngrData(e, i)}
                   />
                 </div>
               </div>
@@ -102,7 +102,7 @@ const AddRecipe = () => {
           <button onClick={addMore}>Add more</button>
         </div>
         <label htmlFor="instructions">Instructions</label>
-        <textarea name="inst" id="inst" onChange={changeData} />
+        <textarea name="instructions" id="inst" onChange={changeData} />
         <input type="submit" value="Post recipe" className="" />
       </form>
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const RecipeCard = ({ name, desc, img, data, country }) => {
+const RecipeCard = ({ name, description, img, data, country }) => {
   return (
     <div className="card">
       <div className="flag-container">
@@ -11,7 +11,7 @@ const RecipeCard = ({ name, desc, img, data, country }) => {
         <img src={img} alt={name} />
       </div>
       <h3>{name}</h3>
-      <p>{desc}</p>
+      <p>{description}</p>
       <Link to={name} state={{ data: data, country: country }}>
         See more
       </Link>

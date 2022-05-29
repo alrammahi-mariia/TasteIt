@@ -1,24 +1,19 @@
-# TasteIt React JS final project
+# TasteIT React JS final project
 
-A collection of recipes from all over the world. Built with React JS.
+A collection of recipes from all over the world, built with React JS.
 
-## Available Scripts
+With this app you can display a list of recipes and see the country of their origin, you can also add your favorite recipe to the collection.
 
-In the project directory, you can run:
+## Running a project locally
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In the project directory, you can run:
 
 ### `npm run server`
 
-Start JSON Server on 3001 port. You can change port in package.json:
+Start JSON Server on 3010 port. You can change port in package.json:
 
 ```shell
-json-server -p3001 --w db.json
+json-server -p3010 --w db.json
 ```
-
-### Deployment
-
-Deployed project can be viewed here:

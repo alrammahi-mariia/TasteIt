@@ -77,24 +77,25 @@ const AddRecipe = () => {
           <h3>Ingredients</h3>
           {ingredients.map((_, i) => {
             return (
-              <div>
+              <div className="add-ingredients">
+                <label htmlFor="inSingle">Ingredient</label>
+                <input
+                  type="text"
+                  name="inSingle"
+                  id="inSingle"
+                  onChange={(e) => changeIngrData(e, i)}
+                />
+
                 <div key={i}>
                   <label htmlFor="quantity">Quantity</label>
-                  <input
-                    type="text"
-                    name="quantity"
-                    id="quantity"
-                    onChange={(e) => changeIngrData(e, i)}
-                  />
-                </div>
-                <div>
-                  <label htmlFor="inSingle">Ingredient</label>
-                  <input
-                    type="text"
-                    name="inSingle"
-                    id="inSingle"
-                    onChange={(e) => changeIngrData(e, i)}
-                  />
+                  <div>
+                    <input
+                      type="text"
+                      name="quantity"
+                      id="quantity"
+                      onChange={(e) => changeIngrData(e, i)}
+                    />
+                  </div>
                 </div>
               </div>
             );

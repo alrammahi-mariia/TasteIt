@@ -209,7 +209,7 @@ a {
 .item-1 img {
   max-width: 600px;
   max-height: 600px;
-  float: center;
+  float: left;
 }
 
 .recipe-name {
@@ -222,25 +222,29 @@ a {
   padding: 0.5rem;
 }
 
+.item-2 p,
+.item-4 p {
+  margin: 1rem 0;
+}
+
 .item-3 h2 {
   margin-bottom: 1rem;
 }
 
 .flag-container {
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 150px;
   overflow: hidden;
 }
 
 .flag {
   position: relative;
   width: 100px;
-  bottom: 0;
   right: 0;
+  top: 0;
 }
 
-/* Add recipe */
+/* Add recipe form */
 
 .form-container {
   margin: 2rem;
@@ -298,6 +302,16 @@ select {
   cursor: pointer;
 }
 
+.add-ingredients {
+  display: flex;
+  flex-direction: column;
+}
+
+.ingredients-container button:hover {
+  background: #424240;
+  color: #e8e8e8;
+}
+
 form input[type="submit"] {
   width: 100px;
   margin-top: 1rem;
@@ -308,4 +322,10 @@ form input[type="submit"] {
   color: #e8e8e8;
   border-radius: 3px;
   cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background: transparent;
+  color: #424240;
+  border: 1px solid grey;
 }

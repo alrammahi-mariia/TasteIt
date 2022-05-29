@@ -329,3 +329,7 @@ form input[type="submit"]:hover {
   color: #424240;
   border: 1px solid grey;
 }
+
+.submit-msg {
+  margin-top: 2rem;
+}

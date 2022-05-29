@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const AddRecipe = () => {
+  const [submitted, setSubmit] = useState(false);
   const [data, setData] = useState({
     name: "",
     author: "",
@@ -48,7 +49,9 @@ const AddRecipe = () => {
   };
 
   const submitData = (e) => {
+    e.preventDefault();
     axios.post("http://localhost:3001/recipies", data);
+    setSubmit(true);
   };
 
   return (
@@ -104,7 +107,10 @@ const AddRecipe = () => {
         </div>
         <label htmlFor="instructions">Instructions</label>
         <textarea name="instructions" id="inst" onChange={changeData} />
-        <input type="submit" value="Post recipe" className="" />
+        <input type="submit" value="Post recipe" />
+        {submitted === true && (
+          <h3 className="submit-msg">Your recipe has been submitted!</h3>
+        )}
       </form>
     </div>
   );

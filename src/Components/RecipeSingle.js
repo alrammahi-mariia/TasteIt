@@ -11,9 +11,9 @@ const RecipeSingle = () => {
       <h1 className="recipe-name">{recipe.name}</h1>
       <div className="recipe-container">
         <div className="item-1">
-          <div className="flag-container">
+          {/* <div className="flag-container">
             <img src={country.flag} alt={country.name} className="flag" />
-          </div>
+          </div> */}
           <img src={recipe.img} alt={recipe.name} />
         </div>
         <div className="item-2">
@@ -22,11 +22,11 @@ const RecipeSingle = () => {
           <h2>Author</h2>
           <p>{recipe.author}</p>
           <h2>Country</h2>
-          <p>{country.name}</p>
+          {/* <p>{country.name}</p> */}
         </div>
         <div className="item-3">
           <h2>Ingredients:</h2>
-          {recipe.ingr?.map((inSingle) => {
+          {recipe.ingr.map((inSingle) => {
             return (
               <div className="ingredients" key={inSingle.inSingle}>
                 {inSingle.quantity} {inSingle.inSingle}

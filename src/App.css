@@ -233,7 +233,7 @@ a {
 
 .flag-container {
   position: absolute;
-  width: 150px;
+  max-width: 100px;
   overflow: hidden;
 }
 

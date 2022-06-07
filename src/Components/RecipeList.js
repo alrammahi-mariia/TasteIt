@@ -3,34 +3,42 @@ import axios from "axios";
 import RecipeCard from "./RecipeCard";
 
 const RecipeList = () => {
-  const [recipies, setRecipies] = useState([]);
-  const [countries, setCountries] = useState([]);
-  const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(false);
-
-  const getRecipes = () => axios.get("http://localhost:3001/recipies");
-  const getCountries = () => axios.get("https://restcountries.com/v2/all");
+  const [data, setData] = useState([]);
+  const [filteredData, setFiltered] = useState(data);
 
   useEffect(() => {
     setLoading(true);
-    Promise.all([getRecipes(), getCountries()]).then(function (results) {
-      const recipesData = results[0];
-      const countriesData = results[1];
-
-      setRecipies(recipesData.data);
-      setCountries(countriesData.data);
-
-      setLoading(false);
-    });
+    axios
+      .get("http://localhost:3001/recipies")
+      .then((res) => {
+        setData(res.data);
+        setFiltered(res.data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.log("Axios error: ", err);
+      });
   }, []);
 
-  const handleSearch = (e) => {
-    setSearch(e.target.value);
-  };
+  if (loading) {
+    return <p>Loading</p>;
+  }
 
-  const searchFilter = recipies.filter((recipe) => {
-    return recipe.name.toLowerCase().includes(search.toLowerCase());
-  });
+  const handleSearch = (e) => {
+    const result = data.filter((recipe) => {
+      let recipeCountry = recipe.country.toLowerCase();
+      let recipeName = recipe.name.toLowerCase();
+      let searched = e.target.value.toLowerCase();
+
+      if (recipeName.includes(searched) || recipeCountry.includes(searched)) {
+        return recipe;
+      } else {
+        return "";
+      }
+    });
+    setFiltered(result);
+  };
 
   if (loading) {
     return <p>Loading</p>;
@@ -50,15 +58,8 @@ const RecipeList = () => {
       <div className="recipes-container">
         <h2>Our recipes</h2>
         <div className="recipes-cards">
-          {searchFilter.map((recipe) => (
-            <RecipeCard
-              key={recipe.id}
-              data={recipe}
-              country={countries.find(
-                (country) => country.alpha2Code === recipe.country_code
-              )}
-              {...recipe}
-            />
+          {filteredData.map((recipe) => (
+            <RecipeCard {...recipe} key={recipe.id} />
           ))}
         </div>
       </div>

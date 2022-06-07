@@ -70,6 +70,7 @@ const AddRecipe = () => {
           flag: country.flags.svg,
         });
       }
+      return console.log(data);
     });
   };
 

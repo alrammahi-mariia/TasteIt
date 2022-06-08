@@ -295,28 +295,6 @@
       "flag": "https://flagcdn.com/us.svg",
       "country": "United States",
       "id": 8
-    },
-    {
-      "name": "Pizza",
-      "author": "Mariia",
-      "description": "ikhkhkjh",
-      "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/fluffyamericanpancak_74828_16x9.jpg",
-      "ingr": [
-        {
-          "id": 1,
-          "inSingle": "jkj",
-          "quantity": "jlk"
-        },
-        {
-          "id": 2,
-          "inSingle": "kjk",
-          "quantity": "kjlj"
-        }
-      ],
-      "instruction": "jhkjhkjh",
-      "flag": "https://flagcdn.com/ag.svg",
-      "country": "Antigua and Barbuda",
-      "id": 9
     }
   ]
 }

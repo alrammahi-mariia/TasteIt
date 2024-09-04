@@ -1,7 +1,6 @@
 [build]
   command = "npm run build"
   publish = "build"
-  functions = "netlify/functions"  # Points to the folder containing serverless functions
 
 [[redirects]]
   from = "/api/*"

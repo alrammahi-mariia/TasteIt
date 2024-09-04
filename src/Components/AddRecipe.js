@@ -40,7 +40,7 @@ const AddRecipe = () => {
   const postData = (e) => {
     console.log(data);
     axios
-      .post("/db.json", data)
+      .post("/api/recipies", data)
       .then((res) => {
         console.log(res);
       })

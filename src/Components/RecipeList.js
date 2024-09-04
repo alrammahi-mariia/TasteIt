@@ -10,7 +10,7 @@ const RecipeList = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get("https://https://tasteitapp.netlify.app/api")
+      .get("/api/posts")
       .then((res) => {
         setData(res.data);
         setFiltered(res.data);

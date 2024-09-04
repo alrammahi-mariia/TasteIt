@@ -10,7 +10,7 @@ const RecipeList = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get("/api/posts")
+      .get("db.json")
       .then((res) => {
         setData(res.data);
         setFiltered(res.data);
